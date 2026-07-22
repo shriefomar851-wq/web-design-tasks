@@ -60,81 +60,107 @@ header{
 .navbar-button:hover{
    background-color: #03A4ED;
 }
-/* HERO SECTION (#myhome) */
-.info{
+/* HERO SECTION (#myhome) */     
+      .custom-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 80px auto;
+    margin: 0;
+    padding: 0; 
 }
-.speech{
-    display: block;
+
+.carousel {
+    width: 40%;
+    padding-left: 50px; 
+}
+
+        .speech {
+            width: 100%;
+            padding-bottom: 40px; 
+        }
+
+        .custom-container .p1 {
+            display: block;
+            color: #ff6b63;
+            font-weight: bold;
+        }
+
+        .custom-container h2 {
+            font-size: 50px;
+            font-weight: bold;
+        }
+#textCarousel {
+    position: relative;
+    padding-bottom: 40px;
+}
+
+        .blue {
+            color: #03a4ed;
+        }
+
+        .red {
+            color: #ff695f;
+        }
+
+        .mess {
+            display: inline-block;
+            width: 200px;
+            height: 50px;
+            color: white;
+            border-radius: 25px;
+            background-color: #03A4ED;
+            font-size: 18px;
+            font-weight: 500;
+            margin-top: 25px;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .mess:hover {
+            background-color: #ff695f;
+        }
+
+        .both {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .both i {
+            width: 40px;
+            height: 40px;
+            background-color: #ff695f;
+            color: white;
+            border-radius: 50%;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+        }
+
+        .both span {
+            color: #ff695f;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+     .static-image {
     width: 60%;
-    height:60vh;
-    margin-left: 40px;
-}
-.info .p1{
-    display: block;
-    color: #ff6b63;
-}
-.info h2{
-    font-size: 60px;
-}
-.blue{
-    color: #03a4ed;
-}
-.red{
-    color: #ff695f;
-}
-.f1{
-    align-self: flex-end;
-}
-.mess{ 
-    display:inline-block;
-    width: 200px;
-    height: 50px;
-    color: white;
-    border-radius: 20px;
-    background-color: #03A4ED;
-     font-size: 20px;
-    font-weight: 500;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    border: none;
-   
-}
-.mess:hover{
-    background-color: #ff695f;
+    margin-right: 0; 
 }
 
-.both {
-    display: flex;
-    align-items: center; 
-    gap: 12px;          
-    margin-top: 25px;    
-   
+.static-image img {
+    width: 100%;
+    display: block; 
 }
-
-/* phone icon */
-.both i {
-    width: 40px;
-    height: 40px;
-    background-color: #ff695f; 
-    color: white;              
-    border-radius: 50%;       
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    transform: scaleX(-1); 
-}
-
-.both span {
-    color: #ff695f;
-    font-size: 22px;
-    font-weight: bold;
-}
+    .carousel-indicators {
+            justify-content: center;
+            margin-left: 0;
+            margin-bottom: 0;
+        }
 
 /* SERVICES CAROUSEL (#sec2) */
 .sen p {
