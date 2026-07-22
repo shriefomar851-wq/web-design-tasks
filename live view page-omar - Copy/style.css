@@ -155,12 +155,35 @@ header{
 .static-image img {
     width: 100%;
     display: block; 
+}.carousel-indicators{
+    position: absolute !important;
+    bottom: 20px !important;
+    left: 120px !important;
+
+    display: flex !important;
+    justify-content: flex-start;
+    gap: 8px;              
+    margin: 0;
+    padding: 0;
 }
-    .carousel-indicators {
-            justify-content: center;
-            margin-left: 0;
-            margin-bottom: 0;
-        }
+
+.carousel-indicators button{
+    flex: none;          
+    width: 35px !important;
+    height: 4px !important;
+
+    border: none;
+    border-radius: 10px;
+    background-color: #d9d9d9 !important;
+
+    opacity: 1 !important;
+    margin: 0 !important;
+    transition: 0.3s;
+}
+
+.carousel-indicators .active{
+    background-color: #ff695f !important;
+}
 
 /* SERVICES CAROUSEL (#sec2) */
 .sen p {
